@@ -6,17 +6,17 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:annotate": "node --experimental-strip-types scripts/check-annotate.mts",
+    "models": "node scripts/list-models.mjs"
   },
   "dependencies": {
     "@ai-sdk/openai-compatible": "^2.0.41",
-    "@ai-sdk/rsc": "^2.0.168",
     "ai": "^6.0.168",
-    "dotenv": "^17.4.2",
     "next": "16.2.4",
-    "openai": "^6.35.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
