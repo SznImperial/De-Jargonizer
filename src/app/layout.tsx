@@ -53,6 +53,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${newsreader.variable} h-full`}
     >
       <head>
+        <meta name="ory-verify" content="orynth-bf6698a51756421ea591a94953565d91" />
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body suppressHydrationWarning className="flex min-h-full flex-col">
